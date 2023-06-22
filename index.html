@@ -3,27 +3,34 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asian Yeat Login</title>
+  <link rel="stylesheet" type="text/css" href="index.css" /> 
+  <title>Asian Yeat </title>
   
   <script defer src="login-page.js"></script>
 </head>
 
 <body>
   <main id="main-holder">
-    <h1 id="login-header">Login here</h1>
+    <h1 id="header">To watch Asian Yeat videos login here.</h1>
     
     
     
     <form id="login">
-    <label for="username">Username:</label>
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <br><br>
-      <label for="password">Password:</label><input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="submit">
+      <div id="usernamegroupbox">
+           <label for="username" id="usernamefiller" class="usernamegroup">Username:</label>
+           <input type="text" name="username" id="username-field" class="usernamegroup" placeholder="Username">
+      </div>
+      <br>
+      <div id="passwordgroupbox">
+          <label for="password" id="passwordfiller">Password:</label><input type="password" name="password" id="password-field" class="passwordgroup" placeholder="Password">
+        <br><input type="submit" value="Login" id="submit">
+        </div>
     </form>
   
   </main>
+  <p>asdf</p>
 </body>
 
 </html>
