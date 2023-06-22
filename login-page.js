@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "asianyeat" && password === "gang") {
-        alert("You have successfully logged in.");
+        alert("어서오십쇼 ㅋㅋ");
         location.assign("https://www.youtube.com/playlist?list=PLSXdyTsvFkk2RJS03YE1hSVEcztG1RIp2");
     } else {
         
